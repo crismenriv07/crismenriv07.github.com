@@ -1,0 +1,45 @@
+/*
+color de fondo background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+color de barra izquierda background-color: rgb(219, 208, 208);
+color de barra derecha  color: rgb(66, 139, 221); background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+*/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(215, 238, 241);
+    margin: 0 auto;
+}
+
+.main-title{
+    font-weight: 700;
+    text-align: center;
+}
+
+.container-main{
+    width: 100vh;
+    display: flex;
+    margin:1em 2em;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.container-l{
+    width: 35%;
+    margin: 0 auto;
+    padding:0 auto;
+    background-color: rgb(219, 208, 208);
+}
+
+.left-titles{
+    color: rgb(66, 139, 221);
+}
+
+.container-r{
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
